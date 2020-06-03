@@ -6095,7 +6095,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #ffffff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10169,6 +10169,21 @@ header.masthead h1 {
 }
 
 .hori {
-  display:block;
-  float:left;
+  display:inline-block;
+}
+
+#intro_text {
+    margin: 0 5%;
+}
+
+.logo_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_wrapper > img {
+    max-width:20%; 
+    height:auto; 
+    margin: 30px 0;
 }
