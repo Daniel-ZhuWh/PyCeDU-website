@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*written by PYCeDu*/
+
+.title{
+    font-size: 6vw;   /*need to be revised based on viewport*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(238, 118, 90, 0.3);
+    margin: 4vw 0px;
+}
+
+
+
+.color_0{
+    background-color: #FFFFFF !important;
+}
+.color_1{
+     background-color: #EE765A !important;
+}
+
+.color_2{
+     background-color: #D95840 !important;
+}
+
+.slider{
+    position: relative;
+    padding-bottom: 20%;
+    margin-top: 20px;
+    width: 100px;
+    height: auto;
+    background: #4c4c4c;
+}
+
+.flip_cards{
+    margin: 0 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+/*    z-index: -1;*/
+}
+
+.flip_card{
+    width: 12vw;
+    display: flex;
+    justify-content: space-around
+}
+
+.carousel-control-next-icon img, .carousel-control-prev-icon img{
+    width: 2vw;
+}
+
+
+/*
+
+.flip_card:hover{
+    transform:rotateY(180deg);
+}
+*/
+
+/*
+
+#c1,#c2,#c3,#c4,#c5,#c6,#c7{
+    display: none;
+}
+*/
+
+.pre, .next{
+    z-index: 99;
+    cursor: pointer;
+    width: 12%;
+    height: 5rem;
+    color: gray;
+    position: absolute;
+    top: 0;
+}
+
+.pre{
+    background-image: url("../assets/img/timeline/left.jpg");
+    background-color: red;
+    left=0;
+}
+.next{
+    background-image: url("../assets/img/timeline/right.jpg");
+    background-color: red;
+    right: 0;
+   
+}
+
+#c1:checked ~ #t1,
+#c2:checked ~ #t2,
+#c3:checked ~ #t3,
+#c4:checked ~ #t4,
+#c5:checked ~ #t5,{
+    z-index: 9;
+}
+
+.slide_image{
+    position: relative;
+    margin: auto;
+}
+
+.slide_card{
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+
