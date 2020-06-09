@@ -120,4 +120,43 @@
   color: #ffffff;
   background-color: #EE765A;
   border-color: #dee2e6 #dee2e6 #fff;
+  border-radius: 10px 10px 0 0;
+  
+}
+
+.nav-tabs .nav-link:hover{
+    box-shadow: 0px 0px 15px rgba(119, 58, 18, 0.1);
+    border-color: rgba(238, 118, 90, 0.1);
+
+}
+
+ 
+.nav-tabs .nav-item{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px 10px 0 0;
+
+    background-color: #999999;
+    
+    margin-right: 2vw;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 50;
+}
+
+.nav-tabs .nav-link{
+    color: #fff;
+}
+
+.stakeholder_map{
+    margin:  0.5rem auto;
+    padding: 1.5rem 0;
+    justify-content: center;
+    height: 75vh;
+    width: auto;
+    display: block;
+}
+
+.box_border{
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    height: auto;
 }
