@@ -172,3 +172,20 @@
     color: #FFF;
     font-size: 3em;
   }
+.student_pop_board {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.student_pop {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.student_pop > img{
+    max-width: 100%;
+/*    object-fit: contain;*/
+    
+}
