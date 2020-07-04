@@ -15,6 +15,8 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
         <!-- Third party plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -114,26 +116,46 @@
 
          <!--Our Findings-->
            <script type="text/javascript">
-                        var id = 1;
+                        var id = 0;
 
                      function next(){
-                            id = Math.abs((id + 1)+5) % 5;
-                            console.log($('#timeline'));
-                            $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg');
-                            console.log('assets/img/4_findings/s-' + id + '.svg');
+                            // id = Math.abs((id + 1)+5) % 5;
+                            // console.log($('#timeline'));
+                            // $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg');
+                            // console.log('assets/img/4_findings/s-' + id + '.svg');
+
+                            if (id<4){
+                                id = id+1;
+                                $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg');
+                                if (id>0) $('#4_back').attr("src",'assets/img/4_findings/left_0.svg');
+                                if (id ==4 ) $('#4_next').attr("src",'assets/img/4_findings/right_1.svg');
+
+                            }
+                            else {
+                                $('#4_next').attr("src",'assets/img/4_findings/right_1.svg');
+                            }
                         }
                         function prev(){
-                            id = Math.abs((id - 1)+5) % 5;
-                            $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg'); //动态设定src
-                            console.log('assets/img/4_findings/s-' + id + '.svg');
-
+                            // id = Math.abs((id - 1)+5) % 5;
+                            // $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg'); //动态设定src
+                            // console.log('assets/img/4_findings/s-' + id + '.svg');
+                            
+                            if (id>0){
+                                id = id-1;
+                                $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg');
+                                if (id<4) $('#4_next').attr("src",'assets/img/4_findings/right_0.svg');
+                                if (id ==0 ) $('#4_back').attr("src",'assets/img/4_findings/left_1.svg');
+                            }
+                            else {
+                                $('#4_back').attr("src",'assets/img/4_findings/left_1.svg');
+                            }
                         }
 
                     </script>
 
         <section class="page-section color_0" >
             <div class="container">
-             <div class="title row col-lg-10 justify-content-left" >
+             <div class="title row col-lg-12 justify-content-left" >
                         <h1 class="title ml-0">Our Findings</h1>
                     </div>
 
@@ -146,17 +168,17 @@
 
                      <div class="row center-block slide_card" >
 
-                     <div class="col-2 control_left" >
+                     <div class="col-1 control_left" >
 
                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true">
-                            <img src="assets/img/4_findings/left.svg" onclick="prev()"/>
+                            <img id="4_back" src="assets/img/4_findings/left_1.svg" onclick="prev()"/>
                             </span>
                             <span class="sr-only">Previous</span>
                           </a>
                     </div>
 
-                     <div id="carouselExampleControls" class="carousel slide col-8" data-ride="carousel" data-interval="false">
+                     <div id="carouselExampleControls" class="carousel slide col-8" data-ride="carousel" data-interval="false" data-wrap="false">
                           <div class="carousel-inner">
                             <div class="carousel-item active">
                              <div class="flip_cards">
@@ -208,10 +230,10 @@
 
                         </div>
 
-                          <div class="col-2 control_right" >
+                          <div class="col-1 control_right" >
                             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" >
                             <span class="carousel-control-next-icon" aria-hidden="true">
-                                  <img src="assets/img/4_findings/right.svg" onclick="next()"/>
+                                  <img id="4_next" src="assets/img/4_findings/right_0.svg" onclick="next()"/>
                             </span>
                             <span class="sr-only">Next</span>
                           </a>
@@ -231,8 +253,8 @@
 
          <section class="page-section color_0" >
         <div class="container">
-            <div class="title row col-lg-10 justify-content-left" >
-                <h2 class="title_l ml-0">Who are our stakeholders?</h2>
+            <div class="title row col-lg-12 justify-content-left" >
+                <h2 class="title ml-0">Who are our stakeholders?</h2>
             </div>
 
             <div class="content" >
@@ -277,8 +299,8 @@
         </script>
 
     <div class="container ">
-        <div class="title row col-lg-10 justify-content-left" >
-            <h2 class="title_l ml-0">What did we learn from the research?</h2>
+        <div class="title row col-lg-12 justify-content-left" >
+            <h2 class="title ml-0">What did we learn from the research?</h2>
         </div>  
         <div class="content  col-lg-12 " >
             
@@ -426,8 +448,8 @@
         
     <section class="page-section color_0" >
         <div class="container">
-            <div class="title row col-lg-10 justify-content-left" >
-                <h2 class="title_l ml-0">Current Learning Experience</h2>
+            <div class="title row col-lg-12 justify-content-left" >
+                <h2 class="title ml-0">Current Learning Experience</h2>
             </div>
 
             <div class="content" >
