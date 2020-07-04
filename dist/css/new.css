@@ -316,3 +316,8 @@
     width: 82vw;
     height: auto;
 }
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}

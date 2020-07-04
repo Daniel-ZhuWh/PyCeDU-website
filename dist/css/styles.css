@@ -10183,6 +10183,8 @@ header.masthead h1 {
 
 #intro_text {
     margin: 0 5%;
+    text-align: left;
+    font-family: 'Open Sans';
 }
 
 .vertical_display {
