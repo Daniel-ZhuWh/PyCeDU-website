@@ -3,14 +3,26 @@
 
 
 .title{
-    font-size: 6vw;   /*need to be revised based on viewport*/
-    font-family: "Open Sans", sans-serif;
+    font-size: 4rem;   /*need to be revised based on viewport*/
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-align: left;
     color: rgba(238, 118, 90, 0.3);
     margin-bottom: 1rem;
     padding-top: 5rem;
 }
+/* 
+
+.title{
+    font-size: 6vw;   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    color: rgba(238, 118, 90, 0.3);
+    margin-bottom: 1rem;
+    padding-top: 5rem;
+} 
+*/
 
 .title_l{
     font-size: 4.5vw;   /*need to be revised based on viewport*/
@@ -59,15 +71,16 @@
 
 .flip_cards{
     margin: 0 0.5em;
+    padding: 0.5rem;
+    width: 50 vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
 /*    z-index: -1;*/
 }
 
 .flip_card{
-    width: 12vw;
-    display: flex;
-    justify-content: space-around
+    width: 10vw;
+    
 }
 
 .carousel-control-next-icon img, .carousel-control-prev-icon img{
@@ -111,7 +124,9 @@
    
 }
 
-
+#timeline{
+    transition: transform 0.3s ease-in-out;
+}
 
 .slide_image{
     position: relative;
