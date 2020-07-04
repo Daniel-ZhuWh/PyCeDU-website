@@ -59,5 +59,20 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+        
+  $('.gaps').click(function(){
+      var next = $(this).data('next');
+      var target = $(this).closest('.gap_container').find(next);
+      var allImage = $(this).closest('.gap_container').find('img');
+//      allImage.fadeOut(400, function(){
+//        target.fadeIn();
+//      });
+      allImage.fadeOut();
+//      await sleep(1000);
+      target.fadeIn();
+  })
 
+
+    
 })(jQuery); // End of use strict
+
