@@ -67,7 +67,7 @@
 //      allImage.fadeOut(400, function(){
 //        target.fadeIn();
 //      });
-      allImage.fadeOut();
+      allImage.hide();
 //      await sleep(1000);
       target.fadeIn();
   })
