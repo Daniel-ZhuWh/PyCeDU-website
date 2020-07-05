@@ -491,7 +491,7 @@
                      <div class="row" id="row4">
                         <div class="col_atr col-lg-4 column"> 
                             <image class="col_atr stage " id="st1" src="assets/img/7_classflow/3_inclasspractice.svg"/>
-                            <image class="spliter" id="st0" src="assets/img/7_classflow/arrow.svg" data-aos="fade-down"/>
+                            <image class="spliter" id="st0" src="assets/img/7_classflow/arrow.svg" />
                         </div>
                         <div class="col_atr col-lg-4 text_l" id="p20">
                             <p>Teacher walk around the classroom to monitor and provide help.
@@ -612,7 +612,7 @@
                       </div>
                 </div>
 -->
-        <section class="page-section color_0 gap_container" >
+        <section class="page-section color_0 gap_container container" >
             <div class="row text-center">
                 <div class="gap_board col-lg-7">
                     <img id="1_1" style="max-width: 100%" src="assets/img/Gaps/SGap1_1.png">
@@ -632,7 +632,76 @@
         </section>
 
 
-        <!-- Services-->
+
+
+
+    <!--Design Opportunities-->
+        <section class="page-section color_0" >
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.do_gap').click(function(){
+                        var path = $(this).data('next');
+                        var target = $(this).closest('.container').find(path);
+                        var allImage = $(this).closest('.container').find('.do_paths').find('img');
+                        allImage.fadeOut();
+                        target.fadeIn();
+                        console.log(target);
+                        console.log(allImage);
+                   });
+                });
+            
+            </script>
+            <div class="container cc">
+            <div class="title_2 row col-lg-10 justify-content-left" >
+                <h2 class="title_s ml-0">We mapped out different <span>design opportunities</span> according to gaps we found.</h2>
+            </div>
+            <div class="text-center justify-content-center do_box">
+                <div class="col-lg-5 center-block do_box_content">
+                    <button class="do_gap" data-next="#do_p1" >
+                        <div class="do_icon"><img src="assets/img/11_design_opportunities/student.svg"></div>
+                        <div class="do_text">Motivation gap</div>
+                    </button>
+                    <button class="do_gap" data-next="#do_p2" >
+                        <div class="do_icon"><img src="assets/img/11_design_opportunities/student.svg"></div>
+                        <div class="do_text">Class setting gap</div>
+                    </button>
+                    
+                    <button class="do_gap" data-next="#do_p3" >
+                        <div class="do_icon"><img src="assets/img/11_design_opportunities/teacher.svg"></div>
+                        <div class="do_text">Student difference gap</div>
+                    </button>
+                    <button class="do_gap" data-next="#do_p4"  >
+                        <div class="do_icon"><img src="assets/img/11_design_opportunities/teacher.svg"></div>
+                        <div class="do_text">Learning resource gap</div>
+                    </button>
+                </div>
+            </div>
+            <div class="justify-content-center do_paths">
+                <img class="do_path" id="do_p1" src="assets/img/11_design_opportunities/g1.svg"/>
+                <img class="do_path" id="do_p2" src="assets/img/11_design_opportunities/g2.svg" style="display:none"/>
+                <img class="do_path" id="do_p3" src="assets/img/11_design_opportunities/g3.svg" style="display:none"/>
+                <img class="do_path" id="do_p4" src="assets/img/11_design_opportunities/g4.svg" style="display:none"/>
+            </div>
+            </div>
+        </div>
+            
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Services
         <section class="page-section" id="services">
             <div class="container">
                 <h2 class="text-center mt-0">At Your Service</h2>
