@@ -422,11 +422,13 @@ h2 > span {
     align-items: center;
     background-color: white;
     border: none;
+    transition: 0.3s;
 }
 
 .do_gap:hover{
     background-color:#F7BDB0;
     border: none;
+    transition: 0.3s;
 }
 .do_gap:hover .do_text{    
     font-weight: 600;
@@ -441,6 +443,7 @@ h2 > span {
     border: none;
     outline: none;
     box-shadow: none;
+    transition: 0.3s;
 }
 .do_gap:focus .do_text{    
     color: white;
