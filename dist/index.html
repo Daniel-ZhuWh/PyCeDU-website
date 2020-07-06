@@ -622,22 +622,263 @@
                       </div>
                 </div>
 -->
-        <section class="page-section color_0 gap_container container" >
-            <div class="row text-center">
-                <div class="gap_board col-lg-7">
-                    <img id="1_1" style="max-width: 100%" src="assets/img/Gaps/SGap1_1.png">
-                    <img id="1_2" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap1_2.png">
-                    <img id="1_3" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap1_3.png">
-                </div>
-                <div class="col-lg-5">
-                    <div class="gap_choice" style="max-width: 70%">
-                        <p class="subtitle">Motivation gaps</p>
-                        <a class="gaps" data-next="#1_1">Programming is not friendly to novice</a> 
-                        <a class="gaps" data-next="#1_2">Middle school students may easily lose motivation</a> 
-                        <a class="gaps" data-next="#1_3">Peer pressure within the class due to different mastery level</a> 
-                    </div>
-                </div>
+        <section class="page-section color_0 container" >
+            <div class="title_2 col-lg-10 justify-content-left" >
+                <h2 class="title_s ml-0">What is the <span>gap</span> between the current status and the prefered status?</h2>
             </div>
+            
+            <div class="board">
+
+                    <ul class="nav nav-tabs justify-content-end">
+                        <li class="nav-item font-weight-semibold"><a class="nav-link active"  data-toggle="tab" href="#Sgap">Gaps for students</a></li>
+                        <li class="nav-item font-weight-semibold"><a class="nav-link" data-toggle="tab" href="#Tgap">Gaps for teachers</a></li>
+                      </ul>
+                      <div class="tab-content box_border">
+                            <div id="Sgap" class="container tab-pane fade show active" >
+                                <div class="row center-block slide_card gap_tab" >
+
+                                 <div class="col-1 control_left" >
+
+                                 <a class="carousel-control-prev" href="#gapsControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                                        <img id="gap_back" src="assets/img/4_findings/left_1.svg" onclick="prev()"/>
+                                        </span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                </div>
+
+                                 <div id="gapsControls" class="carousel slide col-8" data-ride="carousel" data-interval="false" data-wrap="false">
+            <!--
+                                     <ol class="carousel-indicators">
+                                        <li data-target="#gapsControls" data-slide-to="0" class="active"></li>
+                                        <li data-target="#gapsControls" data-slide-to="1"></li>
+                                      </ol> 
+            -->
+                                     <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="gap_container">
+                                                <div class="row text-center">
+                                                    <div class="gap_board col-lg-8">
+                                                        <img id="1_1" style="max-width: 100%" src="assets/img/Gaps/SGap1_1.png">
+                                                        <img id="1_2" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap1_2.png">
+                                                        <img id="1_3" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap1_3.png">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="gap_choice">
+                                                            <p class="subtitle">Motivation gaps</p>
+                                                            <button class="gaps" data-next="#1_1" autofocus>Programming is not friendly to novice</button> 
+                                                            <button class="gaps" data-next="#1_2">Middle school students may easily lose motivation</button> 
+                                                            <button class="gaps" data-next="#1_3">Peer pressure within the class due to different mastery level</button> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="gap_container">
+                                                <div class="row text-center">
+                                                    <div class="gap_board col-lg-8">
+                                                        <img id="2_1" style="max-width: 100%" src="assets/img/Gaps/SGap2_1.png">
+                                                        <img id="2_2" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap2_2.png">
+                                                        <img id="2_3" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap2_3.png">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="gap_choice">
+                                                            <p class="subtitle">Class setting gaps</p>
+                                                            <button class="gaps" data-next="#2_1" autofocus>Class time is short for studentsand main courses take most of students’ time</button> 
+                                                            <button class="gaps" data-next="#2_2">Large class sizes pose difficulties to get instant and personalized feedbacks</button> 
+                                                            <button class="gaps" data-next="#2_3">Resources on programming learning are limited</button> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+
+                                      </div>
+
+
+                                    </div>
+
+                                      <div class="col-1 control_right" >
+                                        <a class="carousel-control-next" href="#gapsControls" role="button" data-slide="next" >
+                                        <span class="carousel-control-next-icon" aria-hidden="true">
+                                              <img id="gap_next" src="assets/img/4_findings/right_0.svg" onclick="next()"/>
+                                        </span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+
+                                        </div>
+
+                                  </div>
+                            </div>
+                          
+                          
+                          
+                          
+                            <div id="Tgap" class="tab-pane fade" >
+                                <div class="row center-block slide_card" >
+
+                                 <div class="col-1 control_left" >
+
+                                 <a class="carousel-control-prev" href="#gapsControls2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true">
+                                        <img id="gap_back" src="assets/img/4_findings/left_1.svg" onclick="prev()"/>
+                                        </span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                </div>
+
+                                 <div id="gapsControls2" class="carousel slide col-8" data-ride="carousel" data-interval="false" data-wrap="false">
+            <!--
+                                     <ol class="carousel-indicators">
+                                        <li data-target="#gapsControls" data-slide-to="0" class="active"></li>
+                                        <li data-target="#gapsControls" data-slide-to="1"></li>
+                                      </ol> 
+            -->
+                                     <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="gap_container">
+                                                <div class="row text-center">
+                                                    <div class="gap_board col-lg-8">
+                                                        <img id="1_1" style="max-width: 100%" src="assets/img/Gaps/TGap1_1.png">
+                                                        <img id="1_2" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap1_2.png">
+                                                        <img id="1_3" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap1_3.png">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="gap_choice">
+                                                            <p class="subtitle">Student differences</p>
+                                                            <button class="gaps" data-next="#1_1" autofocus>Students have different learning capabilities</button> 
+                                                            <button class="gaps" data-next="#1_2">Students in the same class have various levels of prior knowledge.</button> 
+                                                            <button class="gaps" data-next="#1_3">Students have different levels of interest in programming.</button> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <div class="gap_container">
+                                                <div class="row text-center">
+                                                    <div class="gap_board col-lg-8">
+                                                        <img id="2_1" style="max-width: 100%" src="assets/img/Gaps/TGap2_1.png">
+                                                        <img id="2_2" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap2_2.png">
+                                                        <img id="2_3" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap2_3.png">
+                                                        <img id="2_4" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap2_4.png">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="gap_choice">
+                                                            <p class="subtitle">Teaching resources</p>
+                                                            <button class="gaps" data-next="#2_1" autofocus>Workload is heavy in Programming courses</button> 
+                                                            <button class="gaps" data-next="#2_2">Limited capability due to class size and time constraint</button> 
+                                                            <button class="gaps" data-next="#2_3">Communication is limited out of class</button> 
+                                                            <button class="gaps" data-next="#2_4">Lacking support on programming teaching</button> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+
+                                      </div>
+
+
+                                    </div>
+
+                                      <div class="col-1 control_right" >
+                                        <a class="carousel-control-next" href="#gapsControls2" role="button" data-slide="next" >
+                                        <span class="carousel-control-next-icon" aria-hidden="true">
+                                              <img id="gap_next" src="assets/img/4_findings/right_0.svg" onclick="next()"/>
+                                        </span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+
+                                        </div>
+
+                                  </div>
+
+                            </div>
+                      </div>
+                </div>
+            
+            
+            
+<!--
+            <div class="row center-block slide_card" >
+
+                     <div class="col-1 control_left" >
+
+                     <a class="carousel-control-prev" href="#gapsControls2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true">
+                            <img id="gap_back" src="assets/img/4_findings/left_1.svg" onclick="prev()"/>
+                            </span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                    </div>
+
+                     <div id="gapsControls2" class="carousel slide col-8" data-ride="carousel" data-interval="false" data-wrap="false">
+                         <ol class="carousel-indicators">
+                            <li data-target="#gapsControls" data-slide-to="0" class="active"></li>
+                            <li data-target="#gapsControls" data-slide-to="1"></li>
+                          </ol> 
+                         <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="gap_container">
+                                    <div class="row text-center">
+                                        <div class="gap_board col-lg-8">
+                                            <img id="1_1" style="max-width: 100%" src="assets/img/Gaps/SGap1_1.png">
+                                            <img id="1_2" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap1_2.png">
+                                            <img id="1_3" style="max-width: 100%; display:none" src="assets/img/Gaps/SGap1_3.png">
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="gap_choice">
+                                                <p class="subtitle">Motivation gaps</p>
+                                                <button class="gaps" data-next="#1_1">Programming is not friendly to novice</button> 
+                                                <button class="gaps" data-next="#1_2">Middle school students may easily lose motivation</button> 
+                                                <button class="gaps" data-next="#1_3">Peer pressure within the class due to different mastery level</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="gap_container">
+                                    <div class="row text-center">
+                                        <div class="gap_board col-lg-8">
+                                            <img id="2_1" style="max-width: 100%" src="assets/img/Gaps/TGap2_1.png">
+                                            <img id="2_2" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap2_2.png">
+                                            <img id="2_3" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap2_3.png">
+                                            <img id="2_4" style="max-width: 100%; display:none" src="assets/img/Gaps/TGap2_3.png">
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="gap_choice">
+                                                <p class="subtitle">Class setting gaps</p>
+                                                <button class="gaps" data-next="#2_1">Class time is short for studentsand main courses take most of students’ time</button> 
+                                                <button class="gaps" data-next="#2_2">Large class sizes pose difficulties to get instant and personalized feedbacks</button> 
+                                                <button class="gaps" data-next="#2_3">Resources on programming learning are limited</button> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                          </div>
+
+
+                        </div>
+
+                          <div class="col-1 control_right" >
+                            <a class="carousel-control-next" href="#gapsControls" role="button" data-slide="next" >
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                                  <img id="gap_next" src="assets/img/4_findings/right_0.svg" onclick="next()"/>
+                            </span>
+                            <span class="sr-only">Next</span>
+                          </a>
+
+                            </div>
+
+                      </div>
+-->
             
         </section>
 
@@ -695,9 +936,9 @@
                 <img class="do_path" id="do_p3" src="assets/img/11_design_opportunities/g3.svg" style="display:none"/>
                 <img class="do_path" id="do_p4" src="assets/img/11_design_opportunities/g4.svg" style="display:none"/>
  
-        </div>
             </div>
-        </div>
+            </div>
+
             
         </section>
 

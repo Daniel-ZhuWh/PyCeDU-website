@@ -370,7 +370,8 @@ p,li, ul {
     flex-wrap: nowrap;
     flex-direction: row;
 */
-/*    max-width: 50%;*/
+    width: 600px;
+    margin: auto;
 }
 
 .gap_board > img {
@@ -382,6 +383,8 @@ p,li, ul {
     flex-wrap: nowrap;
     flex-direction: column;
     color: black;
+    max-width: 98%;
+/*    max-height: 40vh;*/
 }
 
 .subtitle {
@@ -394,21 +397,31 @@ p,li, ul {
     display: flex;
 }
 
-.gaps {
+.gaps, .gaps1, .gaps2, .gaps3, .gaps4 {
     box-shadow: 0px 2px 5px 2px #bfbfbf;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 15px;
     margin: 10px 0;
+    background-color: white;
     font-family: "Open Sans";
-    cursor: pointer;
+    border: none;
 }
 
-.gaps:hover {
-    background-color: #bfbfbf;
+.gaps:hover, .gaps1:hover, .gaps2:hover, .gaps3:hover, .gaps4:hover {
+    background-color:#F7BDB0;
+    border: none;
+    transition: 0.3s;
 }
 
-.gaps:active {
-    background-color: #EE765A;
+.gaps:focus, .gaps1:focus, .gaps2:focus, .gaps3:focus, .gaps4:focus {
+    background-color:#EE765A;
+    
+    font-style: bold;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transition: 0.3s;
 }
 
 
@@ -501,4 +514,8 @@ h2 > span {
     width: 80%;
     position: absolute;
     top: 0;
+}
+
+.gap_tab {
+/*    height: 50vh;*/
 }
