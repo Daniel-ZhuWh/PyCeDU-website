@@ -519,3 +519,36 @@ h2 > span {
 .gap_tab {
 /*    height: 50vh;*/
 }
+
+.teacher_pop {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.teacher_quote > img {
+    max-width: 20vm;
+}
+
+.teacher_quote {
+    max-width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+#teachericon {
+    width: 15%;
+    height: auto;
+    margin: auto;
+}
+
+#tquote1 {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.student_icon {
+    width: 70%;
+    margin: auto;
+}
