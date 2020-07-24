@@ -27,9 +27,7 @@ p{
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 }
-#about{
-    background-color:#FFF5F3;
-}
+
 .proj_details{
     padding-left: 5rem;
 }
@@ -559,4 +557,8 @@ h2 > span {
 
 .tpersona {
     width: 60%;
+}
+
+.color-section {
+    background-color:#FAFAFA;
 }
