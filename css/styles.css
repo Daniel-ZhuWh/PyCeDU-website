@@ -376,7 +376,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 3rem;
 }
 
 h4, .h4 {
@@ -10228,4 +10228,8 @@ h3 {
 
 .proj_details > div {
     margin: 0 20px;
+}
+
+h3{
+    font-size: 2em;
 }
