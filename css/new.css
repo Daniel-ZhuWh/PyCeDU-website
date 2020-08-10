@@ -663,14 +663,11 @@ h2 > span {
     color: #4c4c4c;
     display: flex;
     align-items: center;
-    margin: 2.5rem auto;
+    margin: 0 auto;
 }
 .team_intro{
     margin: 0 auto;
-    margin-top: 1rem;
-    padding: 3rem;
     display: block;
-    background: rgba(196, 196, 196, 0.1);
 
 }
 
@@ -678,7 +675,8 @@ h2 > span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 1rem;
+    margin: 0 3rem;
+    padding: 1rem;
 }
 .team_member{
     display: flex;
@@ -697,9 +695,8 @@ h2 > span {
  
 }
 .team_member h5{
-    font-weight: 100;
+    font-weight: 700;
     font-size: 18px;
-    font-family: 'Poppins';
 }
 
 .bg_gray{
