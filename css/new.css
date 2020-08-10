@@ -427,6 +427,13 @@ h2 > span {
     color: #EE765A;
     opacity: 0.8;
 }
+
+.screen_intro > span{
+    color: #EE765A;
+    font-family: "Poppins";
+    font-weight: 300;
+/*    margin-top: 3%;*/
+}
 .design_opportunities{
     background-color: #FFF5F3;
 }
@@ -598,13 +605,50 @@ h2 > span {
   flex-wrap: nowrap; 
   justify-content: center;
   width: 100%;
+  margin-top: 7%;
 }
 
 .menu-item {
     box-shadow: 1px 2px 3px 3px #d9d9d9;
+    border: none;
     padding: 10px 60px;
     background-color: white;
     margin: 0 8%;
     border-radius: 25px;
     cursor: pointer;
+    transition: 0.3s;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.menu-item:hover{
+    box-shadow: 1px 2px 3px 3px rgba(238, 118, 90, 0.2);
+    color: #EE765A;
+    transition: 0.3s;
+}
+
+.menu-item:active{
+    background-color: #EE765A;
+    color: white;
+/*    transition: 0.3s;*/
+}
+
+.menu-item:focus{
+    background-color: #FDF1EF;
+    color: #EE765A;
+    border: none;
+    outline: none;
+    box-shadow: none;
+/*    transition: 0.3s;*/
+}
+
+.black-title {
+    text-align: left; 
+    font-size: 2em; 
+    font-weight: 600;
+}
+
+.subpage {
+    margin-bottom: 8%;
 }

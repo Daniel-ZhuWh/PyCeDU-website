@@ -5,6 +5,57 @@
     */
     (function($) {
   "use strict"; // Start of use strict
+//  
+//    var tag = document.createElement('script');
+//
+//    tag.src = "https://www.youtube.com/iframe_api";
+//    var firstScriptTag = document.getElementsByTagName('script')[0];
+//    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+//
+//    // 3. This function creates an <iframe> (and YouTube player)
+//    //    after the API code downloads.
+//    var player1;
+//    var player2;
+//    var player3;
+//        
+//    function onYouTubeIframeAPIReady() {
+//      player1 = new YT.Player('player1', {
+//        height: '540',
+//        width: '960',
+//        videoId: 'cf7V5qUqRNc',
+//        events: {
+//          'onReady': onPlayerReady,
+//          'onStateChange': onPlayerStateChange
+//        }
+//      });
+//        
+//      player2 = new YT.Player('player2', {
+//        height: '540',
+//        width: '960',
+//        videoId: 'h9TaTGPcfG8',
+//        events: {
+//          'onReady': onPlayerReady,
+//          'onStateChange': onPlayerStateChange
+//        }
+//      });
+//        
+//        player3 = new YT.Player('player3', {
+//        height: '540',
+//        width: '960',
+//        videoId: 'rCkQPmrud0Q',
+//        events: {
+//          'onReady': onPlayerReady,
+//          'onStateChange': onPlayerStateChange
+//        }
+//      });
+//    }
+//    
+//    function onPlayerReady(event){
+//    //    player.playVideo();
+//    }
+//
+//    function onPlayerStateChange(event){
+//    }
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -67,11 +118,16 @@
 //      allImage.fadeOut(400, function(){
 //        target.fadeIn();
 //      });
+      console.log("clicked");
       allImage.fadeOut(300).delay(300);
       target.fadeIn(300);
   })
 
-
-    
+  $('.menu-item').click(function(){
+      var next = $(this).data('next');
+      $(".feature_content").fadeOut(300).delay(300);
+      $(next).fadeIn(300);
+  })
+  
 })(jQuery); // End of use strict
 
