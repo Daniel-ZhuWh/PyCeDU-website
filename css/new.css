@@ -661,6 +661,8 @@ h2 > span {
     display: block;
 
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 .team_row{
     display: flex;
@@ -697,17 +699,7 @@ h2 > span {
 .subpage {
     margin-bottom: 8%;
 }
-
-h4 {
-    color: #EE765A;
-    font-family: "Poppins";
-    font-weight: 300;
-    font-size: 1em;
-    margin: 5% 0;
-}
-
-.big-title {
-    text-align: center; 
-    margin-bottom: 10%; 
-    font-weight: bold;
-}
+=======
+>>>>>>> parent of 77cc0cc... update
+=======
+>>>>>>> parent of 77cc0cc... update

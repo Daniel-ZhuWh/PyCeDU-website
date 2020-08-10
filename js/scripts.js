@@ -70,6 +70,12 @@
       allImage.fadeOut(300).delay(300);
       target.fadeIn(300);
   })
+        
+  $('.menu-item').click(function(){
+      var next = $(this).data('next');
+      $(".feature_content").fadeOut(300).delay(300);
+      $(next).fadeIn(300);
+  })
 
 
     
