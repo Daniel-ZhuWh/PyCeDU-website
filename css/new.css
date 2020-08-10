@@ -649,6 +649,51 @@ h2 > span {
     font-weight: 600;
 }
 
+.team_photo {
+    width: 80%;
+    color: #4c4c4c;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.team_intro{
+    margin: 0 auto;
+    display: block;
+
+}
+
+.team_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 3rem;
+    padding: 1rem;
+}
+.team_member{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+.team_member > img {
+    width: 100px;
+}
+
+.team_member > div{
+    margin-left: 1rem;
+    align-content: baseline;
+ 
+}
+.team_member h5{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bg_gray{
+    background: rgba(196, 196, 196, 0.1);
+  }
+
 .subpage {
     margin-bottom: 8%;
 }
