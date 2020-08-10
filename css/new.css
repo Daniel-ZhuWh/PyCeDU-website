@@ -620,6 +620,17 @@ h2 > span {
     font-weight: 400;
 }
 
+.screen_intro > h3 {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+.screen_intro > h4{
+    font-size: 1.2em;
+    color: #EE765A;
+}
+
 .shadowed_img {
     box-shadow: 3px 3px6px #d9d9d9;
 }
@@ -788,4 +799,8 @@ ul b{
     height: auto;
     margin: 0 auto;
     display: block;
+}
+.big-title {
+    text-align: center;
+    margin-bottom: 10%;
 }
