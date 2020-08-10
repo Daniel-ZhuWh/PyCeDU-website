@@ -763,3 +763,29 @@ h2 > span {
     /* width: 80%; */
     height: auto;
 }
+
+/* standard styles for line, margin */
+/* research page */
+.m_h3_p{
+    margin-bottom: 2.5rem;
+}
+
+.m_ul{
+   margin-top: 0.5rem;
+   line-height: 30px;
+}
+li{
+    /* margin-bottom: 1rem; */
+    padding-left: 20px;
+}
+
+ul b{
+    font-weight: 600;
+}
+
+.fullsize_img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}

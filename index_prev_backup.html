@@ -45,7 +45,95 @@
         </div>
         </nav>
         <!-- Masthead-->
-       
+        <header class="masthead">
+
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+<!--                    <div class="hori">-->
+                    <div class="col-lg-6" id="intro_text">
+                        <h1 class="font-weight-bold">An adaptive Python learning platform for every student, every classroom.</h1>
+                        <hr class="divider my-4" />
+                        <p class="font-weight-light mb-5">Our product is an adaptive online learning tool that aids teachers and students in learning and teaching programming more effectively in-class.</p>
+                    </div>
+<!--                    <div>-->
+                        <img src="assets/img/header_img.png" style="max-width:40%; height:auto;"/>
+<!--                    </div>-->
+
+                    <div class="col-lg-8 align-self-baseline">
+
+<!--                    </div>-->
+                        <a class=" js-scroll-trigger" href="#about">
+                            <img src="assets/img/scroll.svg"/>
+                        </a>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <!-- About-->
+        <section class="page-section bg-primary " id="about">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-6 ">
+                        <h2 class="mt-0">Design Brief</h2>
+                        <hr class="divider my-4" />
+                        <p class="mb-4">We are a team of five master students from Carnegie Mellon University partnered with Cross Domain to envision a product that supports programming learning in Chinese middle schools. We embarked on a strongly user-driven end-to-end research, design, and development process which has culminated in the creation of Cross Domain Collaborate. <br><br>
+
+                        With the promising development of K-12 programming education in China these days, Cross Domain decided to embrace this new opportunity and expand its market. As the first step, the company plans to design practical learning tools that support Python elective courses in middle schools. In particular, its targets include public and experimental schools in first-tier cities.</p>
+                    </div>
+                    <div class="col-lg-6 vertical_display logo_wrapper">
+                        <img src="assets/img/team_logo.png">
+                        <img src="assets/img/CD_logo.png">
+                        <img src="assets/img/HCII_logo.png">
+                        <img src="assets/img/CMU_logo.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-section color-section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="mb-4">By researching K-12 programming standards and existing online Python courses, our team will apply learning science principles in the design of a supportive Python learning tool for Chinese middle school students at international and experimental schools. We aim to boost our learners’ motivation with better student-teacher interaction and emphasize their sense of achievement by incorporating more adaptive learning technologies.</p>
+                    </div>
+                    <div class="col-lg-6 proj_details">
+                        <div>
+                            <h3>Tools</h3>
+
+                            <p>Figma, HTML, CSS, Miro, Mural, Adobe Illustrator, <br> Phototshop</p>
+                        </div>
+                        <div>
+                            <h3>Duration</h3>
+                            <p>8 Months</p>
+                        </div>
+                        <div>
+                            <h3>Team</h3>
+                            <div class="team">
+                            <div class="name">
+                                <p>Xinying Hou</p>
+                                <p>Yue Jiang</p>
+                                <p>Jialu Li</p>
+                                <p>Xiaoyu Shi</p>
+                                <p>Shijie Zhu</p>
+                               
+                            </div>
+                            <div class="role">
+                                <p>Project Manager</p>
+                                <p>Product Manager</p>
+                                <p>Research Lead</p>
+                                <p>Design Lead</p>
+                                <p>Developer</p>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
          <!--Our Findings-->
            <script type="text/javascript">
@@ -53,14 +141,13 @@
 
                      function next(){
     
-                            if (id<2){
+                            if (id<4){
                                
                                 id = id+1;
                               
-                                $('#timeline').attr("src",'assets/img/research/s-' + id + '.png');
-                                console.log("src",'assets/img/research/s-' + id );
+                                $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg');
                                 if (id>0) $('#4_back').attr("src",'assets/img/4_findings/left_0.svg');
-                                if (id ==2 ) $('#4_next').attr("src",'assets/img/4_findings/right_1.svg');
+                                if (id ==4 ) $('#4_next').attr("src",'assets/img/4_findings/right_1.svg');
 
                             }
                             else {
@@ -71,8 +158,8 @@
    
                             if (id>0){
                                 id = id-1;
-                                $('#timeline').attr("src",'assets/img/research/s-' + id + '.png');
-                                if (id<2) $('#4_next').attr("src",'assets/img/4_findings/right_0.svg');
+                                $('#timeline').attr("src",'assets/img/4_findings/s-' + id + '.svg');
+                                if (id<4) $('#4_next').attr("src",'assets/img/4_findings/right_0.svg');
                                 if (id ==0 ) $('#4_back').attr("src",'assets/img/4_findings/left_1.svg');
                             }
                             else {
@@ -90,7 +177,7 @@
 
                     <div class="row img-responsive col-lg-10 slide_image" id="scroll-left" >
 
-                     <img id="timeline" src="assets/img/research/s-0.png" alt="Responsive image" width=100% />
+                     <img id="timeline" src="assets/img/4_findings/s-0.svg" alt="Responsive image" width=100% />
 
                     </div>
 
@@ -111,30 +198,48 @@
                           <div class="carousel-inner">
                             <div class="carousel-item active">
                              <div class="flip_cards">
-                                <image class="flip_card" id="c1-1" src="assets/img/research/card0-0.png"/>
-                                <image class="flip_card" id="c1-2" src="assets/img/research/card0-1.png"/>
-                                <image class="flip_card" id="c1-3" src="assets/img/research/card0-2.png"/>
+                                <image class="flip_card" id="c1-1" src="assets/img/4_findings/1-1.svg"/>
+                                <image class="flip_card" id="c1-2" src="assets/img/4_findings/1-2.svg"/>
+                                <image class="flip_card" id="c1-3" src="assets/img/4_findings/1-3.svg"/>
                             </div>
                               </div>
 
                             <div class="carousel-item">
                               <div class="flip_cards" id="set2">
-                                <image class="flip_card" id="c2-1" src="assets/img/research/card1-0.png"/>
-                                <image class="flip_card" id="c2-2" src="assets/img/research/card1-1.png"/>
-                                <image class="flip_card" id="c2-3" src="assets/img/research/card1-2.png"/>
-                                <image class="flip_card" id="c2-4" src="assets/img/research/card1-3.png"/>
+                                <image class="flip_card" id="c2-1" src="assets/img/4_findings/2-1.svg"/>
+                                <image class="flip_card" id="c2-2" src="assets/img/4_findings/2-2.svg"/>
+                                <image class="flip_card" id="c2-3" src="assets/img/4_findings/2-3.svg"/>
                                 </div>
                             </div>
 
                             <div class="carousel-item">
                              <div class=" flip_cards" id="set3">
-                                <image class="flip_card" id="c3-1" src="assets/img/research/card2-0.png"/>
-                                <image class="flip_card" id="c3-2" src="assets/img/research/card2-1.png"/>
-                                <image class="flip_card" id="c3-3" src="assets/img/research/card2-2.png"/>
+                                <image class="flip_card" id="c3-1" src="assets/img/4_findings/3-1.svg"/>
+                                <image class="flip_card" id="c3-2" src="assets/img/4_findings/3-2.svg"/>
+                                <image class="flip_card" id="c3-3" src="assets/img/4_findings/3-3.svg"/>
+                                <image class="flip_card" id="c3-4" src="assets/img/4_findings/3-4.svg"/>
 
                             </div>
                             </div>
 
+                            <div class="carousel-item">
+                              <div class="flip_cards" id="set4">
+                                <image class="flip_card" id="c4-1" src="assets/img/4_findings/4-1.svg"/>
+                                <image class="flip_card" id="c4-2" src="assets/img/4_findings/4-2.svg"/>
+                                <image class="flip_card" id="c4-3" src="assets/img/4_findings/4-3.svg"/>
+
+                                </div>
+                            </div>
+
+
+                            <div class="carousel-item">
+                              <div class="flip_cards" id="set5">
+                                <image class="flip_card" id="c5-1" src="assets/img/4_findings/5-1.svg"/>
+                                <image class="flip_card" id="c5-2" src="assets/img/4_findings/5-2.svg"/>
+                                <image class="flip_card" id="c5-3" src="assets/img/4_findings/5-3.svg"/>
+                                <image class="flip_card" id="c5-4" src="assets/img/4_findings/5-4.svg"/>
+                                </div>
+                            </div>
 
                           </div>
 
@@ -158,35 +263,6 @@
 
 
         </section>
-
-
-       <!--understanding problems-->
-        <section class="page-section" >
-            <div class="container">
-                <h3 class="m_h3_p">Programming education in China</h3>
-                <p>To learn more about programming education at schools we researched on exisiting curriculum design from the U.S. schools and Chinese extracurriculum institutes. This is because that we hope to have a holistic understanding of the current competitiors. The team analyzed the context, knowledge taughts, curriculums, goals and standards, assessement methods, and their alignment better compare.</p>
-                <ul class="m_ul">
-                    <li>There are <b>no generally approved standards</b> on Python teaching in both China and U.S. </li>
-                    <li>The most common teaching forms at schools are <b>offline teaching with online facilitators after class</b>. </li>
-                    <li>Fostering students’ <b>interests</b> and <b>mindset</b> would be the key points in middle students programming courses. </li>
-                    <li>The <b>curriculum varies</b> largely depending on the teacher’s approach on making the course.</li>
-                    <li>The government will publish an effective<b>way of measuring the effectiveness of the curriculum</b> in the near future.   </li>
-                    <li>Students’ learning block code <b>struggle in transferring</b> to text code. </li>
-                </ul>
-
-                </div>
-        </section>
-
-
-     <!--narrowing down scope-->
-     <section class="page-section" >
-        <div class="container">
-            <h3 class="m_h3_p">Narrowing down scopes from an open space</h3>
-            <p style="margin-bottom: 60px;">Given a rather open-ended problem space, we spent the first month on research and analysis to narrow down our scope. We did a deep literature review on the current teaching and goal setting methods for K-12 programming learning, several interviews with key stakeholders, and field research to know how programming classrooms and programming education developers were conducted. </p>
-            <img class="fullsize_img col-lg-10" src="assets/img/research/narrowdown.png">
-
-            </div>
-    </section>
 
 
         <!--Stakeholders-->
