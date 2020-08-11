@@ -815,3 +815,11 @@ ul b{
     font-size: 1.5em;
     margin: 7% 0;
 }
+
+.it_subtitle {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #EE765A;
+}

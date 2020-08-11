@@ -46,7 +46,7 @@
         </div>
         </nav>
 
-        <header class="masthead">
+        <!-- <header class="masthead">
             <section class="page-section">
                 <div class="container">
                     <div style="text-align: left; font-size: 1.5em; margin-top: 10%; font-weight: 600">
@@ -60,47 +60,55 @@
                     </div>
                 </div>
             </section>
+     -->
+            <section class="page-section" style="font-weight: 600;">
+                <div class="container">
+                    <h3 style="text-align: left; margin-top: 10%; margin-bottom: 5rem;" class="col-lg-5 screen_intro">Overview</h3>
+                    <img class="center" src="assets/img/Iteration/1/Overview.png" width="740" height="380" />
+                </div>
+                <p class="text-center col-lg-8" style="display: block; margin: 0 auto;">From May to August, we ran through 4 rounds of iterations. </br> In the first round, we interviewed both teachers and students, tested and updated the information architecture of the whole product. From 2nd round, we focused more on three core features on the teacher end: Checkpoints, Project and Class Summary. In the following session, we will talk about our iterations in product structure, features, and metrics.</p>
+            </section>
     
             <section class="page-section color-section">
                 <div class="container">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="iteration_title">
-                            1. Structure Iteration -- Teacher End: </br> How we display student data/information to teachers
-                        </div>
-                        <div class="col-lg-6 gap-60"></div>
-                        <p>Communicating with real-time data is more about telling a specific story, it’s about starting a guided conversation with targeted audience.  We did rounds of structure iterations to explore the form we should take, the navigation and interactions that make our dashboard useful and engaging for teachers.</p>
-                    </div>
                     <div class="row">
-                        <div class="gap-60"></div>
-                        <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 1:  Low-fi Teacher In-class  Learninng Analytical Dashboard </b>
-                            </p>
-                            <p>When doing sketch work and low-fi version, we put all the tabs teachers might need in the classtime of the same layer.</p>
-                            <div class="gap-30"></div>
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="iteration_title">
+                                1. How we display student data/information to teachers
+                            </div>
+                            <div class="col-lg-6 gap-30"></div>
+                            <p>Communicating with real-time data is more about telling a specific story, it’s about starting a guided conversation with targeted audience.  We did rounds of structure iterations to explore the form we should take, the navigation and interactions that make our dashboard useful and engaging for teachers. </p>
+                            <div class="col-lg-6 gap-30"></div>
+                            <img src="assets/img/Iteration/New_head/1.png" width="900" height="180">
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="gap-120"></div>
                             <div class="offset-lg-1 col-lg-4">
-                                <img src="assets/img/Iteration/1/lowfi_teacher.png" width="400" height="150">
+                                <it_subtitle>
+                                    Round 1:  Low-fi Teacher Interface
+                                    <p><b>Information Architecture</b></p>
+                                </it_subtitle>
+                                <p>When doing sketch work and low-fi version, we put all the tabs teachers might need in the classtime of the same layer.</p>
+                                <div class="gap-30"></div>
+                            </div>
+                            <div class="offset-lg-1  col-lg-4">
+                                <img src="assets/img/Iteration/1/Low-fi_teacher.png" width="300" height="400">
                             </div>
                         </div>
-                        <div class="offset-lg-2  col-lg-4">
-                            <img src="assets/img/Iteration/1/Low-fi_teacher.png" width="300" height="400">
-                        </div>
-                    </div>
                     <!--iteration2-->
                     <div class="gap-60"></div>
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 2:  Mid-fi Teacher In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle >
+                                Round 2:  Mid-fi Teacher Interface
+                               <p><b>Information Architecture</b></p>
+                           </it_subtitle>
                             <p>In the mid-fi version, we made each tab appeared over time since we realized that teachers don’t need to go back to prior session during one class.</p>
                             <div class="gap-30"></div>
-                            <div class="offset-lg-1 col-lg-6">
-                                <img src="assets/img/Iteration/1/Mid-fiteacherinterface.png" width="380" height="200">
                             </div>
-                        </div>
-                        <div class="offset-lg-1 col-lg-5">
+                            <div class="offset-lg-1 col-lg-4">
                             <img src="assets/img/Iteration/1/Mid-fiteacher.png" width="489" height="236">
                         </div>
                     </div>
@@ -109,9 +117,10 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 3:  High-fi Teacher Auto-generated Summary Report</b>
-                            </p>
+                            <it_subtitle>
+                                Round 3:  High-fi Teacher Interface
+                                <p><b>Information Architecture</b></p>
+                            </it_subtitle>
                             <p>To reach full flexibility to teachers, we designed the final version as shown below.</p>
                             <div class="gap-30"></div>
                         </div>
@@ -119,82 +128,73 @@
                             <img src="assets/img/Iteration/1/High-fi.png" width="489" height="236">
                         </div>
                     </div>
-                    <div class="row">
-                        <img class="center" src="assets/img/Iteration/1/highfi_teacher.png" width="740" height="270">
                     </div>
-                </div>
             </section>
     
             <!--iteration2 - Student Structure-->
     
             <section class="page-section">
                 <div class="container">
-                    <div class="col-lg-8 offset-lg-2">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
                         <div class="iteration_title">
-                            1. Structure Iteration -- Student End: </br> How can we better understand and address students’ individual learning needs?
+                            2. Different practicing modes for students
                         </div>
-                        <div class="col-lg-6 gap-60"></div>
+                        <div class="col-lg-10 gap-30"></div>
                         <p>Students’ prior knowledge varies largely. Many students have taken after-class courses outside of the school but some didn't. We did rounds of iteration to figure out how to build a inclusive practice system for students.</p>
+                        <div class="col-lg-6 gap-30"></div>
+                        <img src="assets/img/Iteration/New_head/2.png" width="850" height="180">
+                        <div class="gap-120"></div>
+                    </div>
                     </div>
                     <div class="row">
-                        <div class="gap-60"> </div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 1:  Low-fi Student  In-class Practice </b>
-                            </p>
+                            <it_subtitle>
+                                Round 1:  Low-fi Student Interface
+                            </it_subtitle>
                             <p>We designed this Low Fidelity student interface of the step by step practice mode and brought it to teacher and students to test. </p>
-                            <div class="offset-lg-8 col-lg-4">
-                                <img src="assets/img/Iteration/1/lowfi_student.png" width="331" height="275">
-                            </div>
+                            <p>
+                                <b style="color:#EE765A;">Findings</b>
+                                Teachers want students to be able to think independently before they get access to more scaffolding (step mode)
+                            </p>                            
                         </div>
                         <div class="offset-lg-2  col-lg-4">
-                            <img src="assets/img/Iteration/1/Low-fi_student.png" width="285" height="197">
+                            <img src="assets/img/Iteration/1/Low-fi_student.png" width="200" height="140">
                         </div>
-                        <div class="offset-lg-2 col-lg-8">
-                            <p> <b style="color:#EE765A;">Findings: </b></br>
-                            Teachers want students to be able to think independently before they get access to more scaffolding (step mode) </p>
                         </div>
-                    </div>
                     <!--iteration2-->
                     <div class="gap-60"></div>
                     <div class="row">
-                        <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round  2:  Mid-fi  Student In-class Practice</b>
-                            </p>
+                            <it_subtitle>
+                                Round 2: Mid-fi Student Interface
+                                <p><b>In-class Practice</b></p>
+                            </it_subtitle>
                             <p>
                                 A Combination of step and classic mode for students to choose from, instead of only the step mode. Prompts are added to remind students to switch to step mode when they get stuck for too long.
                             </p>
                             <div class="gap-30"></div>
-                            <div class="offset-lg-7 col-lg-5">
-                                <img src="assets/img/Iteration/1/Mid-fiStudentInteface.png" width="360" height="179">
+                            </div>
+                            <div class="offset-lg-2 col-lg-5">
+                                <img src="assets/img/Iteration/1/mid-fi-studentflow.png" width="280" height="120">
                             </div>
                         </div>
-                        <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/1/mid-fi-studentflow.png" width="405" height="176">
-                        </div>
-                    </div>
                     <!--iteration3-->
                     <div class="gap-60"></div>
                     <div class="row">
-                        <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 3:  Hi-fi Student  In-class Practice</b>
-                            </p>
+                            <it_subtitle>
+                                Round 3:  Hi-fi Student Interface
+                                <p><b>In-class Practice</b></p>
+                            </it_subtitle>
                             <p>Code from classic mode will be kept as reference when students switch from classic mode to step mode, also, we added worked example and advanced step features.</p>
                             <div class="gap-30"></div>
                         </div>
-                        <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/1/hi-fistudent.png" width="360" height="250">
-                        </div>
+                        <div class="offset-lg-2 col-lg-5">
+                            <img src="assets/img/Iteration/1/hi-fistudent.png" width="360" height="240">
+                         </div>
                     </div>
-                    <div class="gap-30"></div>
-                    <div class="offset-lg-3 row">
-                        <img src="assets/img/Iteration/1/Hi-fi studentinterface.png" width="525" height="218">
                     </div>
-                </div>
             </section>
     
     
@@ -202,27 +202,30 @@
     
             <section class="page-section color-section">
                 <div class="container">
-                    <div class="col-lg-8 offset-lg-2">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
                         <div class="iteration_title">
-                            2. Students’ Status Visualization
+                            3. Students’ Status Visualization
                         </div>
-                        <div class="col-lg-6 gap-60"></div>
+                        <div class="gap-30"></div>
                         <p>From mountain chart to dot chart, to a combination of classroom and student individual activity monitor, we iterated the overall classroom and student status visualization based on their needs and priorities. </p>
                     </div>
+                </div>
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 1:  Low-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Round 1:  Low-fi Teacher Interface
+                               <p><b>Practicing Progress Monitor</b></p>
+                           </it_subtitle>
                             <p>
-                                <b>Mountain chart</b></br>
+                                Mountain chart<br>
                                 Our assumption: it might be more important for teachers to see an overview of the class status
                             </p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-4">
-                            <img src="assets/img/Iteration/2/teachermountain.png" width="460" height="330">
+                            <img src="assets/img/Iteration/2/teachermountain.png" width="400" height="280">
                         </div>
                     </div>
                     <!--iteration2-->
@@ -230,36 +233,38 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 2: Mid-fi Teacher In-class Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Round 2:  Mid-fi Teacher Interface 
+                                <p><b>Practicing Progress Monitor</b></p>
+                            </it_subtitle>
                             <p>Dot visualization to show a comprehensive overview of students’ learning data.</p>
-                            <div class="gap-30"></div>
+                            <p>
+                                <b style="color:#EE765A;">Finding</b><br>Teachers want to see both overview and each student's activities. However, some have more than 50 students in one class. It's challenging for teachers to see all the dots then.
+                            </p>
                         </div>
-                        <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/2/Mid-fi Teacher Inteface.png" width="460" height="300">
+                        <div class="offset-lg-1 col-lg-6">
+                            <img src="assets/img/Iteration/2/Mid-fi Teacher Inteface.png" width="400" height="250">
                         </div>
                     </div>
                     <div class="gap-30"></div>
-                    <div class="offset-lg-2 col-lg-8">
-                        <p style="color:#EE765A;">
-                            <b>Findings: </b>Teachers want to see both overview and each student's activities. However, some have more than 50 students in one class. It's challenging for teachers to see all the dots then.
-                        </p>
-                    </div>
                     <!--iteration3-->
                     <div class="gap-60"></div>
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 3:  Hi-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Round 3:  Hi-fi Teacher Interface
+                                <p><b>Practicing Progress Monitor</b></p>
+                            </it_subtitle>
                             <p>Add the detailed student list.</p>
+                            <p>
+                                <b style="color:#EE765A;">Finding</b><br>Teachers would prefer to see a list of students.
+                            </p>
                             <div class="gap-30"></div>
                         </div>
-                        <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/2/hifi-teacher.png" width="510" height="233">
-                        </div>
+                        <div class="offset-lg-1 col-lg-4">
+                            <img src="assets/img/Iteration/2/hifi-teacher.png" width="410" height="200">
+                       </div>
                     </div>
                 </div>
             </section>
@@ -268,25 +273,27 @@
     
             <section class="page-section">
                 <div class="container">
-                    <div class="col-lg-8 offset-lg-2">
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
                         <div class="iteration_title">
-                            3. Support for Students -- Student End
+                            4. Support on Student End
                         </div>
-                        <div class="col-lg-6 gap-60"></div>
+                        <div class="col-lg-6 gap-30"></div>
                         <p>With more than 50 students working behind screens in one classroom, teachers may find it challenging to make the strong connections to get to know each student. By iterating system support on the student end, we provide more types of support besides teacher’s personal intervention.</p>
                     </div>
-                    <div class="row">
+                </div>
+                <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 1:  Low-fi Student  In-class Practice</b>
-                            </p>
+                            <it_subtitle>
+                                Round 1:  Low-fi Student Interface
+                            </it_subtitle>
                             <p>
                                 One-size-fits-all hints is not that useful to students since they have diverse different mistakes.
                             </p>
                             <div class="gap-30"></div>
                         </div>
-                        <div class="offset-lg-1 col-lg-4">
+                        <div class="offset-lg-1 col-lg-5">
                             <img src="assets/img/Iteration/3/lowfistudent.png" width="400" height="180">
                         </div>
                     </div>
@@ -295,9 +302,9 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 2:  Mid-fi Student  In-class Practice</b>
-                            </p>
+                            <it_subtitle>
+                                Round 2:  Mid-fi Student Interface
+                            </it_subtitle>
                             <p>
                                 Customized feedback based on test cases.
                             </p>
@@ -312,14 +319,14 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 3:  Hi-fi Student  In-class Practice</b>
-                            </p>
-                            <p>Worked Example for students who are clueless.</p>
+                            <it_subtitle>
+                                Round 3:  Hi-fi Student Interface
+                            </it_subtitle>
+                            <p>Apart from giving customized feedback to those who submitted their codes, we also added worked examples for students who are clueless.</p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/3/hi-fistudent.png" width="440" height="256">
+                            <img src="assets/img/Iteration/3/hi-fistudent.png" width="440" height="270">
                         </div>
                     </div>
                 </div>
@@ -331,26 +338,28 @@
     
             <section class="page-section color-section">
                 <div class="container">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="iteration_title">
-                            4. Checkpoint Questions
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="iteration_title">
+                                5. Checkpoint Questions
                         </div>
-                        <div class="col-lg-6 gap-60"></div>
+                        <div class="col-lg-6 gap-30"></div>
                         <p>How to keep students be on the same page when listening to lectures? Is personalized learning possible during the lecture time? How to do formative assessment to check their understanding? What information do teachers want to know to support their course adjustment? We iterated this part guided by these needs from both student and teacher sides.</p>
                     </div>
+                </div>
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 1: Low-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Round 1: Low-fi Teacher Interface
+                             </it_subtitle>
                             <p>
                                 The check-point question dashboard was originally included in the in-class practice dashboard interface.
                             </p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-4">
-                            <img src="assets/img/Iteration/4/lowfi-student.png" width="460" height="330">
+                        <img src="assets/img/Iteration/4/lowfi-student.png" width="410" height="200">
                         </div>
                     </div>
                     <!--iteration2-->
@@ -358,35 +367,33 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 2: Mid-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Round 2: Mid-fi Teacher Interface
+                            </it_subtitle>
                             <p>Displayed on the side of the lecture slides</p>
+                            <p>
+                                <b style="color:#EE765A;">Finding</b><br>Teachers tend to think it’s a side feature apart from the lecture slides and presentation, so it might not need to be much of an emphasis on the interface
+                            </p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/4/midfi-teacher.png" width="460" height="300">
+                        <img src="assets/img/Iteration/4/mid-fihome_checkpoint.png" width="440" height="280">
                         </div>
                     </div>
                     <div class="gap-30"></div>
-                    <div class="offset-lg-2 col-lg-8">
-                        <p>
-                            <b style="color:#EE765A;">Findings</b></br>Teachers tend to think it’s a side feature apart from the lecture slides and presentation, so it might not need to be much of an emphasis on the interface
-                        </p>
-                    </div>
                     <!--iteration3-->
                     <div class="gap-60"></div>
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 3: Mid-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle >
+                                Round 3: Mid-fi Teacher Interface
+                            </it_subtitle>
                             <p>Teachers want to see the best and worst answering students.</p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/4/midfi-teacher2.png" width="480" height="233">
+                            <img src="assets/img/Iteration/4/midfi-teacher2.png" width="430" height="233">
                         </div>
                     </div>
                     <!--iteration4-->
@@ -394,20 +401,19 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 4: Hi-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Round 3: Hi-fi Teacher Interface
+                            </it_subtitle>
                             <p> Teachers want to share extra materials according to the answer summary</p>
-    
                             <p>
-                                <b style="color:#EE765A;">Findings</b></br>
+                                <b style="color:#EE765A;">Findings</b><br>
                                 &#8226; “I want to be able to do something after students fail to answer the checkpoint questions”</br>
                                 &#8226; “For some individuals that answer the questions indirectly, I might not be able to explain in front of all students, so I want to share some materials to them.”</br>
                             </p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/4/Hi-fi resource sharing.png" width="514" height="253">
+                        <img src="assets/img/Iteration/4/Hi-fi resource sharing.png" width="450" height="220">
                         </div>
                     </div>
                     <!--iteration5-->
@@ -415,20 +421,18 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 4: Hi-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
-                            <p>Teachers want to compare to other classes to have a better sense of how his students are doing.</p>
+                            <it_subtitle>
+                                Round 4: Hi-fi Teacher Interface
+                            </it_subtitle>
+                            <p>Teachers want to compare with others to have a better sense of how his students are doing.</p>
                             <p>
-                                <b style="color:#EE765A;">Findings</b></br>
-                                Visualization: More visual friendly</br>
-                                Visualization: More understandable</br>
-                                Goal: Internalize it quickly.</br>
+                                <b style="color:#EE765A;">Finding</b><br>
+                                Add comparison to other classes’ answer summary to the questions.
                             </p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/4/performance comparision.png" width="514" height="220">
+                            <img src="assets/img/Iteration/4/performance comparision.png" width="450" height="190">
                         </div>
                     </div>
                 </div>
@@ -440,30 +444,32 @@
     
             <section class="page-section">
                 <div class="container">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="iteration_title">
-                            5. Summary Report
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="iteration_title">
+                                6. Class Summary
+                            </div>
+                            <div class="col-lg-6 gap-30"></div>
+                            <p>
+                                A pure-text report that can only download? A classroom-level report with historical performance comparison? A student individual report with their off-task reminders .......
+                                <br>
+                                What do teachers really need to do data-informed reflection? How can we help teachers reduce low-level disruption? We iterated our auto-generated reports to try to find answers for these two leading questions.
+                            </p>
                         </div>
-                        <div class="col-lg-6 gap-60"></div>
-                        <p>
-                            A pure-text report that can only download? A classroom-level report with historical performance comparison? A student individual report with their off-task reminders .......
-                            <br>
-                            What do teachers really need to do data-informed reflection? How can we help teachers reduce low-level disruption? We iterated our auto-generated reports to try to find answers for these two leading questions.
-                        </p>
                     </div>
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 1:  Low-fi Teacher Auto-generated Summary Report</b>
-                            </p>
+                            <it_subtitle>
+                               Round 1:  Low-fi Teacher Interface
+                            </it_subtitle>
                             <p>
                                 Teacher wants more hierarchy on information displayed
                             </p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-4">
-                            <img src="assets/img/Iteration/5/summary lowfi.png" width="380" height="260">
+                            <img src="assets/img/Iteration/5/summary lowfi.png" width="450" height="260">
                         </div>
                     </div>
                     <!--iteration2-->
@@ -471,18 +477,22 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 2: Mid-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                               Round 2: Mid-fi Teacher Interface
+                            </it_subtitle>
                             <p>
+                                We added the following information based on teachers’ needs and comments.<br>
                                 &#8226; Average score (score for different modes)<br>
                                 &#8226; Common problems (Analysis)<br>
                                 &#8226; # of students who finished the project (active categorization)<br>
                             </p>
-                            <div class="gap-30"></div>
+                            <p>
+                                <b style="color:#EE765A;">Finding</b><br>
+                                Teachers want more hierarchy on information displayed.
+                            </p>
                         </div>
                         <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/5/summary midfi.png" width="380" height="260">
+                            <img src="assets/img/Iteration/5/summary midfi.png" width="400" height="220">
                         </div>
                     </div>
                     <!--iteration5-->
@@ -490,15 +500,16 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 3: Hi-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Round 3-1: Hi-fi Teacher Interface
+                            </it_subtitle>
                             <p>
+                                We added the following information based on teachers’ needs and comments.<br>
                                 &#8226; Resources shared
                                 &#8226; Feedback given to students
                             </p>
                             <p>
-                                <b style="color:#EE765A;">Findings</b></br>
+                                <b style="color:#EE765A;">Finding</b><br>
                                 Teacher wants to review not only students’ own behaviors but also his own teaching interventions, actions.
                             </p>
                             <div class="gap-30"></div>
@@ -513,15 +524,17 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 3: Hi-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                 Round 3-2: Hi-fi Teacher Interface
+                                <p><b>In-class Learninng Analytical Dashboard</b></p>
+                            </it_subtitle>
                             <p>
-                                &#8226; Remaining help list: keep unsolved questions</br>
+                                We added the following information based on teachers’ needs and comments.<br>
+                                &#8226; Remaining help list: keep unsolved questions<br>
                                 &#8226; Common problem status: solved / unsolved
                             </p>
                             <p>
-                                <b style="color:#EE765A;">Findings</b></br>
+                                <b style="color:#EE765A;">Finding</b><br>
                                 Want to give some after-class intervention to students who still need help.
                             </p>
                             <div class="gap-30"></div>
@@ -536,25 +549,91 @@
                     <div class="row">
                         <div class="gap-60"></div>
                         <div class="offset-lg-1 col-lg-4">
-                            <p style="color:#EE765A;">
-                                <b>Iteration Round 4: Hi-fi Teacher  In-class  Learninng Analytical Dashboard</b>
-                            </p>
+                            <it_subtitle>
+                                Iteration Round 3-3: Hi-fi Teacher Interface
+                            </it_subtitle>
                             <p>
-                                &#8226; Use mode icons to show practice journey</br>
+                                We made some revisions on the visual presentation.<br>
+                                &#8226; Use mode icons to show practice journey<br>
                                 &#8226; Use progress bar to visualize test score level & lower cognitive load
                             </p>
                             <p>
-                                <b style="color:#EE765A;">Findings</b></br>
-                                Want to give some after-class intervention to students who still need help.
+                                <b style="color:#EE765A;">Finding</b><br>
+                                &#8226; Visualization: More visual friendly
+                                &#8226; Visualization: More understandable
+                                &#8226; Goal: Internalize it quickly.
                             </p>
                             <div class="gap-30"></div>
                         </div>
                         <div class="offset-lg-1 col-lg-5">
-                            <img src="assets/img/Iteration/5/summary hifi2.png" width="514" height="220">
+                            <img src="assets/img/Iteration/5/summary hifi3.png" width="440" height="300">
                         </div>
                     </div>
-    </section>
+                </div>
+            </section>
     
+            <!--iteration5  - Metric -->
+    
+            <section class="page-section color-section">
+                <div class="container">
+                    <div class=" row">
+                    <div class=" col-lg-10 offset-lg-1">
+                        <div class="iteration_title">
+                            7. Metric Iteration
+                        </div>
+                        <div class="col-lg-6 gap-30"></div>
+                        <p>
+                            ITAP -> Test Cases -> Test Cases + AST Matching
+                        </p>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="gap-60"></div>
+                        <div class="offset-lg-1 col-lg-5">
+                            <it_subtitle>
+                                ITAP
+    
+                                <p>(Intelligent Teaching Assistant for Programming)</p>
+                            </it_subtitle>
+                            <p>
+                                <b>Usage</b><br>
+                                Use ITAP to provide auto-generated hints and evaluate students’ code
+                                <br>
+                                <b>Drawback</b><br>
+                                The hints are too explicit, not good for students’ independent thinking
+                            </p>
+                            <div class="gap-30"></div>
+                        </div>
+                        <div class="offset-lg-1 col-lg-5">
+                            <it_subtitle>
+                                Test Cases<br>
+                            </it_subtitle>
+                            <p>
+                                
+                                <b>Usage</b><br>
+                                Use test cases to evaluate students’ code and provide targeted feedback to students’ errors
+                                <br>
+                                <b>Drawback</b><br>
+                                Cannot explicitly assess the skills taught in the class
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!--iteration3-->
+                    <div class="row">
+                        <div class="offset-lg-1 col-lg-10">
+                            <it_subtitle>
+                               Test Case + AST Matching
+                            </it_subtitle>
+                            <p>
+                                AST Matching can detect if students have used a certain skill in their code and provide a better aligned assessment of their performance
+    
+                            </p>
+                            <div class="gap-30"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     
          <!-- Footer-->
          <footer class="bg-light py-5">
@@ -568,8 +647,5 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        
-
-
     </body>
 </html>
