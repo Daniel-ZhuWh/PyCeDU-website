@@ -602,13 +602,11 @@ h2 > span {
     margin: auto;
 }
 
-.spersona {
+.persona {
     width: 100%;
 }
 
-.tpersona {
-    width: 100%;
-}
+
 
 .color-section {
     background-color:#FAFAFA;
@@ -822,4 +820,15 @@ it_subtitle {
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     color: #EE765A;
+}
+.tpersona_flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.tpersona {
+    width: 33%;
+    margin: 3%;
 }
