@@ -478,9 +478,9 @@ h2 > span {
     font-weight: 300;
 /*    margin-top: 3%;*/
 }
-.design_opportunities{
+/* .design_opportunities{
     background-color: #FFF5F3;
-}
+} */
 .do_box{
     margin-top: 5rem;
     background-image: url("../assets/img/11_design_opportunities/gap.svg");
@@ -785,7 +785,7 @@ h2 > span {
    margin-top: 0.5rem;
    line-height: 30px;
 }
-li{
+.m_ul li{
     /* margin-bottom: 1rem; */
     padding-left: 20px;
 }
